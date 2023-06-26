@@ -22,16 +22,20 @@ Then scroll down in Basic Info and click **Generate Token and Scopes** with both
 # Replace with your bot and app token
 export SLACK_BOT_TOKEN=<your-bot-token> # from the OAuth section
 export SLACK_APP_TOKEN=<your-app-level-token> # from the Basic Info App Token Section
+export SLACK_SIGNING_SECRET=
+export OPENAI_API_KEY=
 ```
+
+Or you can rename `.env.example` to `.env` and fill in the values.
 
 ### 2. Setup your local project
 
 ```zsh
 # Clone this project onto your machine
-git clone https://github.com/slackapi/bolt-js-getting-started-app.git
+git clone https://github.com/chihebnabil/proxify-slackbot-hackathon
 
 # Change into the project
-cd bolt-js-getting-started-app/
+cd proxify-slackbot-hackathon/
 
 # Install the dependencies
 npm install
