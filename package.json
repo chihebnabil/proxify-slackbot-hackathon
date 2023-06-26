@@ -4,11 +4,15 @@
   "description": "Getting Started ⚡️ Slackbot for JavaScript",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^3.6.0"
+    "@slack/bolt": "^3.6.0",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
